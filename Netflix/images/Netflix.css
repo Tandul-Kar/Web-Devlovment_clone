@@ -1,0 +1,296 @@
+/* Reset the margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Set the background image for the main section */
+.main {
+    background-image: url('Main.png');
+    /* background-size: cover; */
+    height:100vh;
+    border-bottom: 8px solid rgba(121, 119, 127, 0.805); 
+}
+
+/* Style the navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between; /* Adjusted for spacing */
+    padding: 1vh 20px; /* Added horizontal padding */
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+/* Position the Netflix logo at the top left corner */
+.logo_netflix {
+    border: 1px solid transparent;
+    background-color: rgba(255, 255, 255, 0.08);
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    left: 20px; /* Adjusted for left alignment */
+}
+
+/* Add an overlay for opacity adjustment */
+.opacity {
+    background-color: rgba(0, 0, 0, 0.23);
+    height: 100vh;
+}
+.opacity2 {
+    background-color: rgba(0, 0, 0, 0.396);
+    height: 30vh;
+}
+.opacity3 {
+    background-color: rgba(0, 0, 0, 0.212);
+    height: 30.3vh;
+}
+.opacity4 {
+    background-color: rgba(0, 0, 0, 0.185);
+    height: 30.8vh;
+}
+.opacity5 {
+    background-color: rgba(0, 0, 0, 0.092);
+    height: 31.2vh;
+}
+.opacity {
+    background-color: rgba(0, 0, 0, 0.041);
+    height: 31.8vh;
+}
+/* Style the language and sign-in buttons */
+.buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px; /* Adjusted for right alignment */
+}
+#con1{
+    height: 80px;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight:650;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.043);
+}
+.con2{
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 200;
+    background-color: rgba(0, 0, 0, 0.043);
+}
+.con3{
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 200;
+    background-color: rgba(0, 0, 0, 0.043);
+}
+.search1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;  
+    /* text-align: center; */
+}
+.search1 input{
+    width: 330px;  
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.787);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+}
+.search1 input:hover{
+    width: 330px;  
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.787);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    border: 2px solid white;
+}
+.next{
+    background-color: #db0001;
+    width: 170px;
+    height: 47px;
+    border-radius: 6px;
+    margin-left: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#text1{
+    font-size: 25px;
+    color: #fff;
+}
+#skip{
+    margin-left: 8px;
+   transform: rotate(270deg);
+}
+
+/* Style the individual buttons */
+nav button {
+    border: none;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+/* Style the language button */
+#lang1 {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+/* Adjust the size of the language button icon */
+#lang1 img {
+    width: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.main2{
+    /* background-size: cover; */
+    height:90vh;
+    border-bottom: 8px solid rgba(150, 145, 165, 0.805); 
+    background-color: black;
+    display: flex;
+    
+}
+#BOX1{
+    height:100vh;
+    width: 50%;  
+    background-color: rgb(0, 0, 0);
+}
+#BOX2{
+    height:100vh;
+    width: 50%;  
+    background-color: rgb(0, 0, 0);
+}
+#content1{
+    margin-top: 120px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 45px;
+}
+#content2{
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+.main2 {
+    /* background-size: cover; */
+    height: 90vh;
+    border-bottom: 8px solid #989494; /* White color border */
+    background-color: black;
+    display: flex;
+}
+
+#BOX1{
+    height:100vh;
+    width: 50%;  
+    background-color: rgb(0, 0, 0);
+}
+#BOX2{
+    height:100vh;
+    width: 50%;  
+    background-color: rgb(0, 0, 0);
+}
+#content1{
+    margin-left: 30px;
+    margin-top: 100px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 45px;
+}
+#content2{
+    margin-left: 30px;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.main3{
+    margin-top: 30px;
+    /* background-size: cover; */
+    height: 90vh;
+    background-color: black;
+    display: flex;
+}
+#con1{
+    margin-top: 80px;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+#con2{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 22px;
+    padding-left: 65px;
+    font-weight: 500;
+}
+
+#foot1{
+    padding-left: 35px;
+    border-top: 8px solid rgb(130, 128, 128);
+    height: 300px;
+    background-color: #000000;
+}
+.call{
+    color: white;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    margin-top: 10px;
+    display: block;
+    font-size: 0.85rem;
+    color: #dddddd;
+
+}
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#lang2 {
+    margin-top: 50px;
+    background: rgb(31, 28, 28);
+    border: 1px solid #fff;
+    width:100px;
+    color: #fff;
+    height: 30px;
+    border-radius: 5px;
+}
+.border{
+    border: 1.2px solid transparent;
+}
+.border:hover{
+    border: 1.2px solid white;
+}
+/* Adjust the size of the language button icon */
+#lang2 img {
+    width: 15px;
+    margin-left: 10px;
+}
